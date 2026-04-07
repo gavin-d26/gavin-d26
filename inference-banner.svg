@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380">
+  <style>
+    @keyframes cmdAppear { 0%,5% { opacity:0 } 5.1%,100% { opacity:1 } }
+    @keyframes t0 { 0%,15.0% { opacity:0 } 15.8%,100% { opacity:1 } }
+    @keyframes t1 { 0%,15.4% { opacity:0 } 16.2%,100% { opacity:1 } }
+    @keyframes t2 { 0%,15.8% { opacity:0 } 16.6%,100% { opacity:1 } }
+    @keyframes t3 { 0%,16.3% { opacity:0 } 17.1%,100% { opacity:1 } }
+    @keyframes t4 { 0%,16.7% { opacity:0 } 17.5%,100% { opacity:1 } }
+    @keyframes t5 { 0%,17.1% { opacity:0 } 17.9%,100% { opacity:1 } }
+    @keyframes t6 { 0%,17.5% { opacity:0 } 18.3%,100% { opacity:1 } }
+    @keyframes t7 { 0%,18.0% { opacity:0 } 18.8%,100% { opacity:1 } }
+    @keyframes t8 { 0%,18.4% { opacity:0 } 19.2%,100% { opacity:1 } }
+    @keyframes t9 { 0%,18.8% { opacity:0 } 19.6%,100% { opacity:1 } }
+    @keyframes t10 { 0%,19.2% { opacity:0 } 20.0%,100% { opacity:1 } }
+    @keyframes t11 { 0%,19.6% { opacity:0 } 20.4%,100% { opacity:1 } }
+    @keyframes t12 { 0%,20.1% { opacity:0 } 20.9%,100% { opacity:1 } }
+    @keyframes t13 { 0%,20.5% { opacity:0 } 21.3%,100% { opacity:1 } }
+    @keyframes t14 { 0%,20.9% { opacity:0 } 21.7%,100% { opacity:1 } }
+    @keyframes t15 { 0%,21.3% { opacity:0 } 22.1%,100% { opacity:1 } }
+    @keyframes t16 { 0%,21.8% { opacity:0 } 22.6%,100% { opacity:1 } }
+    @keyframes t17 { 0%,22.2% { opacity:0 } 23.0%,100% { opacity:1 } }
+    @keyframes t18 { 0%,22.6% { opacity:0 } 23.4%,100% { opacity:1 } }
+    @keyframes t19 { 0%,23.0% { opacity:0 } 23.8%,100% { opacity:1 } }
+    @keyframes t20 { 0%,23.4% { opacity:0 } 24.2%,100% { opacity:1 } }
+    @keyframes t21 { 0%,23.9% { opacity:0 } 24.7%,100% { opacity:1 } }
+    @keyframes t22 { 0%,24.3% { opacity:0 } 25.1%,100% { opacity:1 } }
+    @keyframes t23 { 0%,24.7% { opacity:0 } 25.5%,100% { opacity:1 } }
+    @keyframes t24 { 0%,25.1% { opacity:0 } 25.9%,100% { opacity:1 } }
+    @keyframes t25 { 0%,25.6% { opacity:0 } 26.4%,100% { opacity:1 } }
+    @keyframes t26 { 0%,26.0% { opacity:0 } 26.8%,100% { opacity:1 } }
+    @keyframes t27 { 0%,26.4% { opacity:0 } 27.2%,100% { opacity:1 } }
+    @keyframes t28 { 0%,26.8% { opacity:0 } 27.6%,100% { opacity:1 } }
+    @keyframes t29 { 0%,27.2% { opacity:0 } 28.0%,100% { opacity:1 } }
+    @keyframes t30 { 0%,27.7% { opacity:0 } 28.5%,100% { opacity:1 } }
+    @keyframes t31 { 0%,28.1% { opacity:0 } 28.9%,100% { opacity:1 } }
+    @keyframes t32 { 0%,28.5% { opacity:0 } 29.3%,100% { opacity:1 } }
+    @keyframes t33 { 0%,28.9% { opacity:0 } 29.7%,100% { opacity:1 } }
+    @keyframes t34 { 0%,29.4% { opacity:0 } 30.2%,100% { opacity:1 } }
+    @keyframes t35 { 0%,29.8% { opacity:0 } 30.6%,100% { opacity:1 } }
+    @keyframes t36 { 0%,30.2% { opacity:0 } 31.0%,100% { opacity:1 } }
+    @keyframes t37 { 0%,30.6% { opacity:0 } 31.4%,100% { opacity:1 } }
+    @keyframes t38 { 0%,31.0% { opacity:0 } 31.8%,100% { opacity:1 } }
+    @keyframes t39 { 0%,31.5% { opacity:0 } 32.3%,100% { opacity:1 } }
+    @keyframes t40 { 0%,31.9% { opacity:0 } 32.7%,100% { opacity:1 } }
+    @keyframes t41 { 0%,32.3% { opacity:0 } 33.1%,100% { opacity:1 } }
+    @keyframes t42 { 0%,32.7% { opacity:0 } 33.5%,100% { opacity:1 } }
+    @keyframes t43 { 0%,33.2% { opacity:0 } 34.0%,100% { opacity:1 } }
+    @keyframes t44 { 0%,33.6% { opacity:0 } 34.4%,100% { opacity:1 } }
+    @keyframes t45 { 0%,34.0% { opacity:0 } 34.8%,100% { opacity:1 } }
+    @keyframes t46 { 0%,34.4% { opacity:0 } 35.2%,100% { opacity:1 } }
+    @keyframes t47 { 0%,34.8% { opacity:0 } 35.6%,100% { opacity:1 } }
+    @keyframes t48 { 0%,35.3% { opacity:0 } 36.1%,100% { opacity:1 } }
+    @keyframes t49 { 0%,35.7% { opacity:0 } 36.5%,100% { opacity:1 } }
+    @keyframes t50 { 0%,36.1% { opacity:0 } 36.9%,100% { opacity:1 } }
+    @keyframes t51 { 0%,36.5% { opacity:0 } 37.3%,100% { opacity:1 } }
+    @keyframes t52 { 0%,37.0% { opacity:0 } 37.8%,100% { opacity:1 } }
+    @keyframes t53 { 0%,37.4% { opacity:0 } 38.2%,100% { opacity:1 } }
+    @keyframes t54 { 0%,37.8% { opacity:0 } 38.6%,100% { opacity:1 } }
+    @keyframes t55 { 0%,38.2% { opacity:0 } 39.0%,100% { opacity:1 } }
+    @keyframes t56 { 0%,38.6% { opacity:0 } 39.4%,100% { opacity:1 } }
+    @keyframes t57 { 0%,39.1% { opacity:0 } 39.9%,100% { opacity:1 } }
+    @keyframes t58 { 0%,39.5% { opacity:0 } 40.3%,100% { opacity:1 } }
+    @keyframes t59 { 0%,39.9% { opacity:0 } 40.7%,100% { opacity:1 } }
+    @keyframes t60 { 0%,40.3% { opacity:0 } 41.1%,100% { opacity:1 } }
+    @keyframes t61 { 0%,40.8% { opacity:0 } 41.6%,100% { opacity:1 } }
+    @keyframes t62 { 0%,41.2% { opacity:0 } 42.0%,100% { opacity:1 } }
+    @keyframes t63 { 0%,41.6% { opacity:0 } 42.4%,100% { opacity:1 } }
+    @keyframes t64 { 0%,42.0% { opacity:0 } 42.8%,100% { opacity:1 } }
+    @keyframes t65 { 0%,42.4% { opacity:0 } 43.2%,100% { opacity:1 } }
+    @keyframes t66 { 0%,42.9% { opacity:0 } 43.7%,100% { opacity:1 } }
+    @keyframes t67 { 0%,43.3% { opacity:0 } 44.1%,100% { opacity:1 } }
+    @keyframes t68 { 0%,43.7% { opacity:0 } 44.5%,100% { opacity:1 } }
+    @keyframes t69 { 0%,44.1% { opacity:0 } 44.9%,100% { opacity:1 } }
+    @keyframes t70 { 0%,44.6% { opacity:0 } 45.4%,100% { opacity:1 } }
+    @keyframes t71 { 0%,45.0% { opacity:0 } 45.8%,100% { opacity:1 } }
+    @keyframes t72 { 0%,45.4% { opacity:0 } 46.2%,100% { opacity:1 } }
+    @keyframes toksFlicker0 { 0%,0.0% { opacity:0 } 0.1%,11.2% { opacity:1 } 11.3%,100% { opacity:0 } }
+    @keyframes toksFlicker1 { 0%,12.5% { opacity:0 } 12.6%,23.8% { opacity:1 } 23.9%,100% { opacity:0 } }
+    @keyframes toksFlicker2 { 0%,25.0% { opacity:0 } 25.1%,36.2% { opacity:1 } 36.4%,100% { opacity:0 } }
+    @keyframes toksFlicker3 { 0%,37.5% { opacity:0 } 37.6%,48.8% { opacity:1 } 48.9%,100% { opacity:0 } }
+    @keyframes toksFlicker4 { 0%,50.0% { opacity:0 } 50.1%,61.2% { opacity:1 } 61.4%,100% { opacity:0 } }
+    @keyframes toksFlicker5 { 0%,62.5% { opacity:0 } 62.6%,73.8% { opacity:1 } 73.8%,100% { opacity:0 } }
+    @keyframes toksFlicker6 { 0%,75.0% { opacity:0 } 75.1%,86.2% { opacity:1 } 86.3%,100% { opacity:0 } }
+    @keyframes toksFlicker7 { 0%,87.5% { opacity:0 } 87.6%,98.8% { opacity:1 } 98.8%,100% { opacity:0 } }
+    @keyframes tokPulse { 0%, 100% { fill: #7ee787; } 50% { fill: #3fb950; } }
+    @keyframes cursorBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes showToks { 0%, 15% { opacity: 0; } 16%,46.4% { opacity: 1; } 48.4%,100% { opacity: 0; } }
+    .bg { fill: #0d1117; }
+    .bar { fill: #161b22; }
+    .dot-r { fill: #ff5f57; }
+    .dot-y { fill: #febc2e; }
+    .dot-g { fill: #28c840; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', monospace; }
+    .prompt { fill: #7ee787; font-size: 13px; }
+    .cmd { fill: #e6edf3; font-size: 13px; }
+    .str { fill: #a5d6ff; font-size: 13px; }
+    .dim { fill: #484f58; font-size: 13px; }
+    .out { fill: #c9d1d9; font-size: 13px; }
+    .metric { fill: #7ee787; font-size: 12px; }
+    .cursor { fill: #e6edf3; animation: cursorBlink 1s infinite; }
+    .cmd-block { opacity: 0; animation: cmdAppear 20s 1 forwards; }
+    .toks { opacity: 0; animation: showToks 20s 1 forwards; }
+    .tk0 { opacity:0; animation: t0 20s 1 forwards; }
+    .tk1 { opacity:0; animation: t1 20s 1 forwards; }
+    .tk2 { opacity:0; animation: t2 20s 1 forwards; }
+    .tk3 { opacity:0; animation: t3 20s 1 forwards; }
+    .tk4 { opacity:0; animation: t4 20s 1 forwards; }
+    .tk5 { opacity:0; animation: t5 20s 1 forwards; }
+    .tk6 { opacity:0; animation: t6 20s 1 forwards; }
+    .tk7 { opacity:0; animation: t7 20s 1 forwards; }
+    .tk8 { opacity:0; animation: t8 20s 1 forwards; }
+    .tk9 { opacity:0; animation: t9 20s 1 forwards; }
+    .tk10 { opacity:0; animation: t10 20s 1 forwards; }
+    .tk11 { opacity:0; animation: t11 20s 1 forwards; }
+    .tk12 { opacity:0; animation: t12 20s 1 forwards; }
+    .tk13 { opacity:0; animation: t13 20s 1 forwards; }
+    .tk14 { opacity:0; animation: t14 20s 1 forwards; }
+    .tk15 { opacity:0; animation: t15 20s 1 forwards; }
+    .tk16 { opacity:0; animation: t16 20s 1 forwards; }
+    .tk17 { opacity:0; animation: t17 20s 1 forwards; }
+    .tk18 { opacity:0; animation: t18 20s 1 forwards; }
+    .tk19 { opacity:0; animation: t19 20s 1 forwards; }
+    .tk20 { opacity:0; animation: t20 20s 1 forwards; }
+    .tk21 { opacity:0; animation: t21 20s 1 forwards; }
+    .tk22 { opacity:0; animation: t22 20s 1 forwards; }
+    .tk23 { opacity:0; animation: t23 20s 1 forwards; }
+    .tk24 { opacity:0; animation: t24 20s 1 forwards; }
+    .tk25 { opacity:0; animation: t25 20s 1 forwards; }
+    .tk26 { opacity:0; animation: t26 20s 1 forwards; }
+    .tk27 { opacity:0; animation: t27 20s 1 forwards; }
+    .tk28 { opacity:0; animation: t28 20s 1 forwards; }
+    .tk29 { opacity:0; animation: t29 20s 1 forwards; }
+    .tk30 { opacity:0; animation: t30 20s 1 forwards; }
+    .tk31 { opacity:0; animation: t31 20s 1 forwards; }
+    .tk32 { opacity:0; animation: t32 20s 1 forwards; }
+    .tk33 { opacity:0; animation: t33 20s 1 forwards; }
+    .tk34 { opacity:0; animation: t34 20s 1 forwards; }
+    .tk35 { opacity:0; animation: t35 20s 1 forwards; }
+    .tk36 { opacity:0; animation: t36 20s 1 forwards; }
+    .tk37 { opacity:0; animation: t37 20s 1 forwards; }
+    .tk38 { opacity:0; animation: t38 20s 1 forwards; }
+    .tk39 { opacity:0; animation: t39 20s 1 forwards; }
+    .tk40 { opacity:0; animation: t40 20s 1 forwards; }
+    .tk41 { opacity:0; animation: t41 20s 1 forwards; }
+    .tk42 { opacity:0; animation: t42 20s 1 forwards; }
+    .tk43 { opacity:0; animation: t43 20s 1 forwards; }
+    .tk44 { opacity:0; animation: t44 20s 1 forwards; }
+    .tk45 { opacity:0; animation: t45 20s 1 forwards; }
+    .tk46 { opacity:0; animation: t46 20s 1 forwards; }
+    .tk47 { opacity:0; animation: t47 20s 1 forwards; }
+    .tk48 { opacity:0; animation: t48 20s 1 forwards; }
+    .tk49 { opacity:0; animation: t49 20s 1 forwards; }
+    .tk50 { opacity:0; animation: t50 20s 1 forwards; }
+    .tk51 { opacity:0; animation: t51 20s 1 forwards; }
+    .tk52 { opacity:0; animation: t52 20s 1 forwards; }
+    .tk53 { opacity:0; animation: t53 20s 1 forwards; }
+    .tk54 { opacity:0; animation: t54 20s 1 forwards; }
+    .tk55 { opacity:0; animation: t55 20s 1 forwards; }
+    .tk56 { opacity:0; animation: t56 20s 1 forwards; }
+    .tk57 { opacity:0; animation: t57 20s 1 forwards; }
+    .tk58 { opacity:0; animation: t58 20s 1 forwards; }
+    .tk59 { opacity:0; animation: t59 20s 1 forwards; }
+    .tk60 { opacity:0; animation: t60 20s 1 forwards; }
+    .tk61 { opacity:0; animation: t61 20s 1 forwards; }
+    .tk62 { opacity:0; animation: t62 20s 1 forwards; }
+    .tk63 { opacity:0; animation: t63 20s 1 forwards; }
+    .tk64 { opacity:0; animation: t64 20s 1 forwards; }
+    .tk65 { opacity:0; animation: t65 20s 1 forwards; }
+    .tk66 { opacity:0; animation: t66 20s 1 forwards; }
+    .tk67 { opacity:0; animation: t67 20s 1 forwards; }
+    .tk68 { opacity:0; animation: t68 20s 1 forwards; }
+    .tk69 { opacity:0; animation: t69 20s 1 forwards; }
+    .tk70 { opacity:0; animation: t70 20s 1 forwards; }
+    .tk71 { opacity:0; animation: t71 20s 1 forwards; }
+    .tk72 { opacity:0; animation: t72 20s 1 forwards; }
+    .toksv0 { opacity:0; animation: toksFlicker0 4s infinite; }
+    .toksv1 { opacity:0; animation: toksFlicker1 4s infinite; }
+    .toksv2 { opacity:0; animation: toksFlicker2 4s infinite; }
+    .toksv3 { opacity:0; animation: toksFlicker3 4s infinite; }
+    .toksv4 { opacity:0; animation: toksFlicker4 4s infinite; }
+    .toksv5 { opacity:0; animation: toksFlicker5 4s infinite; }
+    .toksv6 { opacity:0; animation: toksFlicker6 4s infinite; }
+    .toksv7 { opacity:0; animation: toksFlicker7 4s infinite; }
+  </style>
+  <rect class="bg" width="800" height="380" rx="10"/>
+  <rect class="bar" width="800" height="32" rx="10"/>
+  <rect class="bar" y="20" width="800" height="12"/>
+  <circle class="dot-r" cx="20" cy="16" r="6"/>
+  <circle class="dot-y" cx="40" cy="16" r="6"/>
+  <circle class="dot-g" cx="60" cy="16" r="6"/>
+  <text class="mono dim" x="400" y="20" text-anchor="middle" font-size="12">gavin@gpu-poor ~ %</text>
+  <g class="cmd-block">
+    <text class="mono prompt" x="16" y="58">$ <tspan class="cmd">curl -s https://gavinds.com/v1/chat/completions \</tspan></text>
+    <text class="mono cmd" x="16" y="78">  -d <tspan class="str">'{"messages":[{"role":"user","content":"who is gavin?"}]}'</tspan></text>
+  </g>
+  <text class="mono out tk0" x="16.0" y="110">Machine</text>
+  <text class="mono out tk1" x="78.4" y="110">Learning</text>
+  <text class="mono out tk2" x="148.6" y="110">Engineer</text>
+  <text class="mono out tk3" x="218.8" y="110">focused</text>
+  <text class="mono out tk4" x="281.2" y="110">on</text>
+  <text class="mono out tk5" x="304.6" y="110">inference</text>
+  <text class="mono out tk6" x="382.6" y="110">engineering</text>
+  <text class="mono out tk7" x="16.0" y="130">and</text>
+  <text class="mono out tk8" x="47.2" y="130">ML</text>
+  <text class="mono out tk9" x="70.6" y="130">systems.</text>
+  <text class="mono out tk10" x="140.8" y="130">Builds</text>
+  <text class="mono out tk11" x="195.4" y="130">systems</text>
+  <text class="mono out tk12" x="257.8" y="130">that</text>
+  <text class="mono out tk13" x="296.8" y="130">make</text>
+  <text class="mono out tk14" x="335.8" y="130">models</text>
+  <text class="mono out tk15" x="390.4" y="130">fast</text>
+  <text class="mono out tk16" x="429.4" y="130">and</text>
+  <text class="mono out tk17" x="16.0" y="150">efficient</text>
+  <text class="mono out tk18" x="94.0" y="150">at</text>
+  <text class="mono out tk19" x="117.4" y="150">scale.</text>
+  <text class="mono out tk20" x="172.0" y="150">Recent</text>
+  <text class="mono out tk21" x="226.6" y="150">work:</text>
+  <text class="mono out tk22" x="273.4" y="150">writing</text>
+  <text class="mono out tk23" x="335.8" y="150">custom</text>
+  <text class="mono out tk24" x="390.4" y="150">GPU</text>
+  <text class="mono out tk25" x="16.0" y="170">kernels,</text>
+  <text class="mono out tk26" x="86.2" y="170">and</text>
+  <text class="mono out tk27" x="117.4" y="170">building</text>
+  <text class="mono out tk28" x="187.6" y="170">a</text>
+  <text class="mono out tk29" x="203.2" y="170">distributed</text>
+  <text class="mono out tk30" x="296.8" y="170">inference</text>
+  <text class="mono out tk31" x="374.8" y="170">engine</text>
+  <text class="mono out tk32" x="16.0" y="190">from</text>
+  <text class="mono out tk33" x="55.0" y="190">scratch.</text>
+  <text class="mono out tk34" x="16.0" y="218">Also</text>
+  <text class="mono out tk35" x="55.0" y="218">builds</text>
+  <text class="mono out tk36" x="109.6" y="218">agentic</text>
+  <text class="mono out tk37" x="172.0" y="218">systems.</text>
+  <text class="mono out tk38" x="242.2" y="218">Created</text>
+  <text class="mono out tk39" x="304.6" y="218">Protostar,</text>
+  <text class="mono out tk40" x="390.4" y="218">a</text>
+  <text class="mono out tk41" x="406.0" y="218">browser</text>
+  <text class="mono out tk42" x="16.0" y="238">automation</text>
+  <text class="mono out tk43" x="101.8" y="238">copilot:</text>
+  <text class="mono out tk44" x="172.0" y="238">context</text>
+  <text class="mono out tk45" x="234.4" y="238">engineering,</text>
+  <text class="mono out tk46" x="335.8" y="238">cost</text>
+  <text class="mono out tk47" x="374.8" y="238">optimization,</text>
+  <text class="mono out tk48" x="16.0" y="258">and</text>
+  <text class="mono out tk49" x="47.2" y="258">making</text>
+  <text class="mono out tk50" x="101.8" y="258">agents</text>
+  <text class="mono out tk51" x="156.4" y="258">reliable</text>
+  <text class="mono out tk52" x="226.6" y="258">in</text>
+  <text class="mono out tk53" x="250.0" y="258">production.</text>
+  <text class="mono out tk54" x="16.0" y="286">2+</text>
+  <text class="mono out tk55" x="39.4" y="286">years</text>
+  <text class="mono out tk56" x="86.2" y="286">of</text>
+  <text class="mono out tk57" x="109.6" y="286">experience</text>
+  <text class="mono out tk58" x="195.4" y="286">building</text>
+  <text class="mono out tk59" x="265.6" y="286">production</text>
+  <text class="mono out tk60" x="351.4" y="286">ML</text>
+  <text class="mono out tk61" x="374.8" y="286">pipelines</text>
+  <text class="mono out tk62" x="452.8" y="286">and</text>
+  <text class="mono out tk63" x="16.0" y="306">optimizing</text>
+  <text class="mono out tk64" x="101.8" y="306">systems</text>
+  <text class="mono out tk65" x="164.2" y="306">across</text>
+  <text class="mono out tk66" x="218.8" y="306">document</text>
+  <text class="mono out tk67" x="289.0" y="306">processing,</text>
+  <text class="mono out tk68" x="382.6" y="306">image</text>
+  <text class="mono out tk69" x="16.0" y="326">retrieval,</text>
+  <text class="mono out tk70" x="101.8" y="326">and</text>
+  <text class="mono out tk71" x="133.0" y="326">batch</text>
+  <text class="mono out tk72" x="179.8" y="326">infrastructure.</text>
+  <g class="toks">
+    <text class="mono metric toksv0" x="780" y="366" text-anchor="end">▸ 40 tok/s</text>
+    <text class="mono metric toksv1" x="780" y="366" text-anchor="end">▸ 41 tok/s</text>
+    <text class="mono metric toksv2" x="780" y="366" text-anchor="end">▸ 42 tok/s</text>
+    <text class="mono metric toksv3" x="780" y="366" text-anchor="end">▸ 43 tok/s</text>
+    <text class="mono metric toksv4" x="780" y="366" text-anchor="end">▸ 44 tok/s</text>
+    <text class="mono metric toksv5" x="780" y="366" text-anchor="end">▸ 43 tok/s</text>
+    <text class="mono metric toksv6" x="780" y="366" text-anchor="end">▸ 42 tok/s</text>
+    <text class="mono metric toksv7" x="780" y="366" text-anchor="end">▸ 41 tok/s</text>
+  </g>
+  <g class="tk72">
+    <rect class="cursor" x="296.8" y="314" width="8" height="16" rx="1"/>
+  </g>
+</svg>
